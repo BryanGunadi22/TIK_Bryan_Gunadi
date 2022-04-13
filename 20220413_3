@@ -1,0 +1,48 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+//nested if = percabangan bersarang = if di dalam if//
+
+int main()
+
+{
+    int nilai;
+    
+    {
+    if (nilai % 2 == 0);
+    cout <<"Bilangan Genap";
+    }
+    
+    {
+    if (nilai < 10);
+    cout << "Bilangan Genap kurang dari 10";
+    }
+    
+    else if
+    {
+    cout<< "bilangan Genap lebih dari  10"}
+    }
+    
+    else if
+    
+    cout<<"Bilangan Ganjil";
+    if (nilai <10)
+    
+    {
+        cout << "Bilangan Ganjil kurang dari 10";
+    }
+    
+    else if
+    {
+        cout<< "bilangan Ganjil ganjil dari  10"}
+    }
+    return 0;
+}
