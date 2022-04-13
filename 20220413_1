@@ -1,0 +1,36 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    /*
+    Jika nilai dengan sisa bagi = 0, bilangan genap
+    Jika bukan, bilangan ganjil
+    */
+    
+    int Nilai;
+    
+    cout<<"Masukkan Nilai = "; cin>>Nilai;
+    
+    if (Nilai % 2 == 0)
+    
+    {
+    cout << "bilangan Genap" ;
+    }
+    
+    else 
+    {
+        cout << "bilangan Ganjil";
+    }
+    
+    return 0;
+}
