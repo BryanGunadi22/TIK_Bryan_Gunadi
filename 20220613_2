@@ -1,0 +1,43 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    /*
+    jika nilai >= 90 sangat memuaskan
+    jika nilai >= 80 memuaskan
+    jika nilai >=75 cukup
+    jika nilai < 75 tidak memuaskan
+    */
+    int nilai;
+    string keterangan; 
+    cout<<"masukkan_Nilai_=_"; cin>>nilai;
+    if (nilai > 100 && nilai < 0)
+        keterangan << "di_luar_jangkauan";
+    if (nilai >= 90  && nilai <=100)
+        {
+        keterangan << "sangat_Memuaskan";
+        } 
+    else if (nilai >= 80 && nilai <=100)
+        {
+        keterangan<<"memuaskan";
+        }
+    else if (nilai >= 75  && nilai <=100)
+        {
+        keterangan<<"cukup";
+        }
+    else if (nilai <= 75 && nilai <=100)
+        {
+        keterangan<<"tidak_lulus";
+        }
+        cout<<keterangan
+    return 0;
+}
