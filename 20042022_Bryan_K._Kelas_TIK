@@ -1,0 +1,65 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    {
+int a;
+cout << "Masukin_nilai_tugas = ";
+cin>>a;
+if ( a > 100 );
+        {
+   cout <<"Lebih_dari_100" << endl; 
+        }
+
+if ( a < 100 );
+        {
+    cout << (a*0.3);
+        }
+    return 0;
+    }
+   
+    {
+int b;
+cout << "Masukin_nilai_UTS = ";
+cin>>b;
+if ( b > 100 );
+        {
+   cout <<"Lebih_dari_100" << endl; 
+        }
+
+if ( b < 100 );
+        {
+    cout << (b*0.4);
+        }
+    return 0;
+    }
+
+{
+int c;
+cout << "Masukin_nilai_UAS = ";
+cin>>c;
+if ( c > 100 );
+        {
+   cout <<"Lebih_dari_100" << endl; 
+        }
+
+if ( c < 100 );
+        {
+    cout << (c*0.3);
+        }
+    return 0;
+    }
+
+    return 0;
+}
