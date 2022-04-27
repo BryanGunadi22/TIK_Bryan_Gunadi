@@ -1,0 +1,28 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int batas_bawah,batas_atas;
+    
+   
+    
+    cout<<"Masukan_batas_bawah = ";cin>>batas_bawah;
+    cout<<"Masukan_batas_atas = ";cin>>batas_atas; 
+    
+    if (batas_bawah > batas_atas)
+    {
+        while (batas_bawah++ < batas_atas)
+        {
+        cout<<"Data_ke - "<<batas_bawah<<endl;
+        }
+    }
+    
+    else 
+    {
+        cout<<"Batas_bawah_tidak_boleh_melebihi_batas_atas";
+    }
+    
+    return 0;
+}
