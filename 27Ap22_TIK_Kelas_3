@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    
+    int number = 10;
+    
+    while (number-- >0){
+        cout<<number<<endl;
+    }
+    
+    return 0;
+}
