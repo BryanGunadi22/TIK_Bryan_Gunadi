@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std; 
+
+int main()
+{
+    //std::array
+    
+    int a [2][2] = {
+        {7,1},
+        {4,8},
+    };
+     int b [2][2] = {
+        {5,2},
+        {8,3},
+    };
+
+    for 
+    cout<<int a[i][j] + b [i][j]
+    
+    return 0;
+}
