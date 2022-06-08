@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+//Program koversi waktu (detik, menit, jam, hari)
+
+int main()
+{
+    char a,b,c,d;
+    cout<<"Masukkan Hari, Jam, Menit, dan Detik yang Diinginkan: "; cin>> a;
+    cout<<endl;
+    cout<<"Sekian, dan terima kasih";
+
+    
+    return 0;
+}
