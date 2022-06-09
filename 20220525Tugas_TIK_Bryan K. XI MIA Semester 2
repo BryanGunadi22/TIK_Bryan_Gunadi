@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+using namespace std; 
+
+int main()
+{
+    //std::array
+    float a=5, b=10, c=12, d=13, e=4,f;
+    int nilai [] = {
+        5,10,12,13,4
+    };
+    
+    for (int i = 0 ; i<5; i ++){
+        cout<< "Nilai-nilai yang diperoleh: " << nilai[i] <<endl;
+    }
+    f = (a+b+c+d+e)/5; 
+    cout<< "Hasil rata-rata dari nilai-nilai yang diperoleh: " << f; 
+    
+    return 0;
+}
